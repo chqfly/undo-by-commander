@@ -1,0 +1,14 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "useBuiltIns": "usage", // 将会按需加入polyfill
+        "corejs": 2
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/transform-runtime"
+  ]
+}
